@@ -37,7 +37,7 @@ npm run dev
 
 ## 🛠️ Technology Stack
 
-- **Next js** with TypeScript
+- **Next js** for SEO
 - **Tailwind CSS** for styling
 - **Lucide React** for icons
 - **shadcn/ui** components (customized for brand)
