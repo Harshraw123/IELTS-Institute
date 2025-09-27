@@ -1,7 +1,7 @@
 'use client'
 
 import { Award, TrendingUp, Star } from "lucide-react";
-import TestimonialCard from "@/components/TestimonialCard";
+import TestimonialCard from "@/app/_landingComponents/TestimonialCard";
 import { testimonials, testimonialsStats } from "@/lib/data/testimonials";
 
 const Testimonials = () => {

@@ -4,19 +4,19 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="home" className="  min-h-screen flex items-center pt-24 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center pt-24 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="animate-fade-up">
             <div className="flex items-center space-x-2 mb-6">
-            <div className="flex space-x-1">
-      <Star className="h-5 w-5 text-yellow-400 fill-current" />
-      <Star className="h-5 w-5 text-yellow-400 fill-current" />
-      <Star className="h-5 w-5 text-yellow-400 fill-current" />
-      <Star className="h-5 w-5 text-yellow-400 fill-current" />
-      <Star className="h-5 w-5 text-yellow-400 fill-current" />
-    </div>
+              <div className="flex text-accent">
+                <Star className="h-5 w-5 text-yellow-400 fill-current" />
+                <Star className="h-5 w-5  text-yellow-400  fill-current" />
+                <Star className="h-5 w-5  text-yellow-400  fill-current" />
+                <Star className="h-5 w-5   text-yellow-400 fill-current" />
+                <Star className="h-5 w-5  text-yellow-400  fill-current" />
+              </div>
               <span className="text-muted-foreground font-medium">
                 Trusted by 50,000+ students worldwide
               </span>
@@ -72,8 +72,7 @@ const Hero = () => {
           {/* Right Content - Hero Image */}
           <div className="animate-fade-in-delay">
             <div className="relative">
-              {/* Main Image Container with Tailwind Glass Effect */}
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4">
+              <div className="glass-card p-4 ">
                 <img
                   src={'/hero.png'}
                   alt="Students learning IELTS with modern technology"
@@ -81,22 +80,22 @@ const Hero = () => {
                 />
               </div>
               
-              {/* Floating Achievement Badge with Tailwind Glass Effect */}
-              <div className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-sm border border-black/20 rounded-2xl p-4 animate-scale-in">
+              {/* Floating Achievement Badge */}
+              <div className="absolute -top-4 -right-4 glass-card p-4 animate-scale-in blur-in-md">
                 <div className="text-center">
-                  <div className="text-2xl font-bold gradient-text  mb-1">Band 9</div>
+                  <div className="text-2xl font-bold gradient-text">Band 9</div>
                   <div className="text-xs text-white">Achiever</div>
                 </div>
               </div>
 
-              {/* Floating Progress Indicator with Tailwind Glass Effect */}
-              <div className="absolute -bottom-4 -left-4 bg-white/10 backdrop-blur-md border border-black/20 rounded-2xl p-4 animate-scale-in">
+              {/* Floating Progress Indicator */}
+              <div className="absolute -bottom-4 -left-4 glass-card p-4 animate-scale-in blur-in-md">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500  flex items-center justify-center">
-                    <span className="text-white font-bold">AI</span>
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-300 via-blue-300 to-blue-400 flex items-center justify-center">
+                    <span className="text-white font-bold   ">AI</span>
                   </div>
                   <div>
-                    <div className="text-sm font-semibold">Real-time Feedback</div>
+                    <div className="text-sm font-semibold gradient-text">Real-time Feedback</div>
                     <div className="text-xs text-white">Instant Analysis</div>
                   </div>
                 </div>

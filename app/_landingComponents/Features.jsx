@@ -40,7 +40,7 @@ import {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="group bg-card border border-border rounded-3xl p-8 shadow-sm hover:shadow-lg transition duration-300 animate-fade-in-delay"
+                className="group bg-card border border-border rounded-3xl p-8 shadow-lg hover:shadow-lg transition duration-300 animate-fade-in-delay"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <div
