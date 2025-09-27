@@ -69,7 +69,7 @@ import {
           </div>
   
           {/* Stats Section */}
-          <div className="p-8 rounded-3xl bg-card/70 border border-border backdrop-blur-md shadow-md animate-scale-in">
+          <div className="p-8 rounded-3xl bg-card/70 border border-border backdrop-blur-md shadow-lg animate-scale-in">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
