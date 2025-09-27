@@ -1,6 +1,6 @@
 # IELTS Elite Institute - Modern Web Application
 
-A cutting-edge, professional IELTS Institute website built with React, TypeScript, and Tailwind CSS. Features a futuristic design with glassmorphism effects, AI-powered learning highlights, and responsive layout.
+A cutting-edge, professional IELTS Institute website built with Next js  and Tailwind CSS. Features a futuristic design with glassmorphism effects, AI-powered learning highlights, and responsive layout.
 
 ## 🚀 Quick Start
 
@@ -15,7 +15,7 @@ npm run dev
 ## 🎨 Design Features
 
 - **Modern Glassmorphism UI**: Elegant glass-card effects with backdrop blur
-- **Professional Blue-Purple Gradient Palette**: Carefully crafted color system for trust and innovation
+- **Professional Blue Gradient Palette**: Carefully crafted color system for trust and innovation
 - **Responsive Design**: Seamless experience across desktop, tablet, and mobile
 - **AI-Powered Branding**: Emphasizes cutting-edge technology in education
 - **Smooth Animations**: Professional fade-ins, hover effects, and transitions
